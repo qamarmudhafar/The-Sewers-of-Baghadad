@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  width: 200px;
+  border: 2px solid lightblue;
+  margin : 0 auto;
+padding : 15px;
+}
+
+.button2 , .button3 ,.button4, .button5,.button6,.button7{
+  background-image: linear-gradient(to right, lightblue , lightgray );
+  border: 2px solid white ;
+  margin: 0 auto;
+  radius : 50px;
+  width : 170px;
+border-radius: 25px;
+  padding : 10px;
+}
+body {
+  background-image: url("../../assets/background.jpg");
+  background-color: #cccccc;
+  background-repeat: repeat-y;
+  background-size: cover;
+ }
